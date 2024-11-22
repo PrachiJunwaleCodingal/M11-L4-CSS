@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aqua;
+    color: #790873;
+}
+
+h1 {
+    color: #149041;
+}
+
+
+a {
+    color: #9c9e8b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1feb59;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h1+p {
+    background-color: #0f4ca1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color: #900e8c;
+}
+
+ul li:nth-child(2) {
+    background-color: #5a97ec;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: " 💫";
+}
+
+
+a::after {
+    content: "🌟 ";
+}
+
+
+p::first-letter {
+    font-size: 200%;
+    color: #cd4fe9;
+}
